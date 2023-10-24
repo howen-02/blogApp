@@ -39,21 +39,21 @@
 }
 
 .category.culture {
-    background-color: #57c4ff31;
+    background-color: #ffb04f45;
 }
 
 .category.coding {
     background-color: #5e4fff31;
 }
 
-
 .image {
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 1280px) {
     .category {
-        width: 20%;
+        width: 14%;
+        gap: 5px;
     }
 }
 
