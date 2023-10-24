@@ -26,17 +26,17 @@
     font-size: 15px;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 1280px) {
     .logo {
         font-size: 32px;
     }
     .links {
         font-size: 18px;
-        gap: 15px
+        gap: 15px;
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
     .social {
         display: none;
     }
@@ -45,18 +45,17 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .logo {
         font-size: 24px;
     }
 }
 
-@media screen and (max-width:640px) {
-    .links{
+@media screen and (max-width: 640px) {
+    .links {
         justify-content: flex-end;
     }
     .link {
         display: none;
     }
-
 }

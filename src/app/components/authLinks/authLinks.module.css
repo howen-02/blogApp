@@ -1,8 +1,8 @@
-.link{
+.link {
     cursor: pointer;
 }
 
-.burger{
+.burger {
     width: 20px;
     height: 16px;
     display: none;
@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 
-.responsiveMenu{
+.responsiveMenu {
     position: absolute;
     top: 100px;
     left: 0;
@@ -26,18 +26,18 @@
     font-size: 36px;
 }
 
-.line{
+.line {
     width: 100%;
     height: 2px;
     background-color: var(--textColor);
 }
 
-@media screen and (max-width:640px){
-    .burger{
+@media screen and (max-width: 640px) {
+    .burger {
         display: flex;
     }
 
-    .link{
+    .link {
         display: none;
     }
 }
